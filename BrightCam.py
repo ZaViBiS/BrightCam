@@ -23,7 +23,7 @@ def change_brightness(add: int) -> float:
     return gray_scaled + add
 
 
-# Безкінечний цикл для виведення значень яскравості та очікування 10 секунд між кожною ітерацією
+# Безкінечний цикл для виведення значень яскравості та очікування 30 секунд між кожною ітерацією
 while True:
     print(change_brightness(0))
     for x in tqdm(range(30)):
